@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Responsive Website</title>
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<style type="text/css">
+body{
+	background:#f1f0d1;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:18px;
+	overflow:auto;
+}
+h1,h2,h3{
+	text-align:center;
+	padding-left:5%;
+	color:#878e63;
+}
+p{
+	padding:2%;
+	color:#878e63;
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+	}
+#wrapper{
+margin:0 auto;
+max-width:1040px;
+width:98%;
+background:#fefeea;
+border:1px solid #878e63;
+border-radius:2px;
+box-shadow:0 0 10px rbga(12, 3, 25, 0.8);
+}
+#callout{
+	width:100%;
+	height:auto;
+	background:#878e63;
+	overflow:hidden;
+	}
+#callout p{
+	text-align:right;
+	color:#f1f0d1;
+	font-size:13px;
+	padding:0.1% 5% 0 0;
+	}
+#callout p a{
+	text-decoration:none;
+	color:#f1f0d1;
+	}
+header{
+	width:96%;
+	min-height:125px;
+	padding:5px;
+	text-align:center;
+	}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	padding-left:50px;
+	}
+nav ul li{
+	float:left;
+	border:1px solid #878e63;
+	width:15%;
+	
+	}
+nav ul li a{
+	background:#f1f0d1;
+	display:block;
+	padding:5% 12%;
+	font-weight:bold;
+	font-size:18px;
+	color:#878e63;
+	text-decoration:none;
+	text-align:center;
+	
+	}
+nav ul li a:hover , nav ul li.active a{
+	background-color:#878e63;
+	color:#f1f0d1;
+	}
+.banner img{
+	width:100%;
+	border-bottom:1px solid #878e63;
+	border-top: 1px solid #878e63;
+	}
+.clearfix{
+	clear:both;
+	`}
+.left-col{
+	width:55%;
+	float:left;
+	margin:-2% 1% 1% 1%;
+	}
+.sidebar{
+	float:right;
+	margin:1%;
+	text-align:center;
+	width:40%;
+	}
+.therapy{
+	float:left;
+	margin: 0 auto;
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.section{
+	width:29%;
+	float:left;
+	margin:2% 2%;
+	text-align:center;
+	
+}
+footer{
+	background:#878e63;
+	width:100%; 
+	overflow:hidden;
+}
+footer p, footer h3{
+color:#f1f0d1;
+}
+footer p a{
+	color:#f1f0d1;
+	text-decoration:none;
+	
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+li{
+display:inline;	
+}
+ul li img{
+height:50px;
+
+}
+/*----------------Media Css Starts----------------------*/
+@media screen and (max-width:478px){
+	body{
+		font-size:13px;	
+	}	
+}
+@media screen and (max-width:740px){
+	nav{
+		width:100%;
+		margin-bottom:10px;
+	}
+	nav ul{
+		list-style:none;
+		margin:0 auto;
+		padding-left:0;
+	}
+	nav ul li{
+		text-align:center;
+		margin-left:0 auto;
+		width:100%;
+		border-top:1px solid #878e63;
+		border-right:0px solid #878e63;
+		border-bottom:1px solid #878e63;
+		border-left:0px solid #878e63;
+		
+	}	
+	nav ul li a {
+		padding:8px 0;
+		font-size:16px;
+	}
+	.section {
+		width:100%;
+		float:left;
+		margin:0;
+	} 
+	.left-col{
+		width:100%;
+	}
+	.sidebar{
+		width:100%;
+	}
+}
+</style>
+</head>
+
+<body>
+	<div id="wrapper">
+    	<div id="callout">
+        	<p>Call us at <b>22-133-5410</b></p>
+        </div>
+        <header>
+        	<a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/massagelogo.png" alt="Massage" title="Massage" /></a>
+        </header>
+        <nav>
+        	<ul>
+        		<li class="active"><a href="#">Home</a></li>
+            	<li><a href="#">Facilities</a></li>
+            	<li><a href="#">Services</a></li>
+            	<li><a href="#">Pricing</a></li>
+            	<li><a href="#">Hours</a></li>
+            	<li><a href="#">Contact</a></li>
+              </ul>
+              <div class="clearfix"></div>
+        </nav>
+        <div class="banner">
+        	<img src="http://www.w3newbie.com/wp-content/uploads/massagebanner.png"/>
+        </div>
+        <center><img src="http://www.w3newbie.com/wp-content/uploads/three_sayings.png"/></center>
+        <section class="left-col">
+        <p style="text-indent:50px;">Step inside our centers, and you'll understand why we're considered the most consistent and highest quality massage centers in our region. Since 2002, we have offered a variety of relaxing and therapeutic massages in our beautiful, serene setting in Old Bellevue and also in our new, spacious and beautiful, Bel-Red Office.</p>
+        <p style="text-indent:50px;">Alas, peace, tranquility and relaxation without leaving town… Our friendly staff of Massage Professionals will provide you with integrated bodywork treatments customized to meet your needs, with services ranging from $10 for a 10-minute Chair Massage to $165 for our Deluxe Spa Package.</p>
+        </section>
+        <aside class="sidebar">
+        	<div class="therapy">
+        		<img src="http://www.w3newbie.com/wp-content/uploads/therapist.jpg"/>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+        <div class="section">
+        	<h3>Private massage</h3>
+            <img src="http://www.w3newbie.com/wp-content/uploads/private.png"/>
+            <p>On the front-end, it’s my architectural framework of choice as it’s both mature, relatively lightweight and can be easily tested using third-party toolkits such as Jasmine or QUnit.</p>
+        </div>
+        
+        <div class="section">
+        	<h3>Sauna Steam</h3>
+            <img src="http://www.w3newbie.com/wp-content/uploads/sauna-steam.png"/>
+            <p>On the front-end, it’s my architectural framework of choice as it’s both mature, relatively lightweight and can be easily tested using third-party toolkits such as Jasmine or QUnit.</p>
+        </div>
+        
+        <div class="section">
+        	<h3>Resort</h3>
+            <img src="http://www.w3newbie.com/wp-content/uploads/retreat.png"/>
+            <p>On the front-end, it’s my architectural framework of choice as it’s both mature, relatively lightweight and can be easily tested using third-party toolkits such as Jasmine or QUnit.</p>
+        </div>
+        <center><img src="http://www.w3newbie.com/wp-content/uploads/ease.png"/></center>
+        
+        <footer>
+        <div class="section">
+        <p>Massage by Tia</p>
+        <p><b>22-133-5410</b><br>
+        21,l street <br>
+        San Fansisco,CA - 1176<br>
+        tia@gmail.com</p>
+        </div>
+        
+        <div class="section">
+        	<p>Connect with us</p>
+            <ul>
+                <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"/></a></li>
+                <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"/></a></li>
+                <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"/></a></li>
+                <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"/></a></li>           
+            </ul>
+            
+        </div>
+        
+        <div class="section">
+        <img src="http://www.w3newbie.com/wp-content/uploads/plant.png"/>
+        </div>
+        </footer>
+    </div>
+	<p style="text-align:center;padding:0px;">&#169 Copyright Massage by Tia, 2014</p>
+</body>
+</html>
